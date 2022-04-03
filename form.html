@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <main>
+        <!--input de datos-->
+        <form action="">
+            <label for="nombre">
+                <span>cual es tu nombre?</span>
+                <input type="text" id="nombre" placeholder="Nombre" required autocomplete="name">
+            </label>
+            <label for="apellido">
+                <span>cual es tu apellido?</span>
+                <input type="text" id="apellido">
+            </label>
+            <label for="fecha">
+                <span>que dia es hoy</span>
+                <input type="date" name="" id="fecha">
+            </label>
+            <label for="horario">
+                <span>que hora es</span>
+                <input type="time" name="" id="horario">
+            </label>
+            <label for="hora">
+                <span>hora</span>
+                <input type="time" name="hora" id="hora">
+            </label>
+            <!--2 tipos de botones-->
+            <input type="submit">
+            <button>enviar</button>
+        </form>
+        <!--select con scroll-->
+        <select name="lenguajes" id="">
+            <option value="html">html</option>
+            <option value="java">java</option>
+            <option value="python">python</option>
+
+        </select>
+        <!--select con buscador-->
+        <input list="autos">
+        <datalist id="autos">
+            <option value="ferrari"></option>
+            <option value="jaguar"></option>
+            <option value="chevrolet"></option>
+        </datalist>
+        <!--imagen con pie de imagen-->
+        <section>
+            <figure>
+                <img src="./imagenes/pexels-julia-volk-5112343.jpg" alt="">
+                <figcaption>es una persona tatuada</figcaption>
+            </figure>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,31 @@
+:root{
+    --primary_color:khaki;
+    --secundary_color:rgb(247, 224, 18);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+header{
+    width: 100vw;
+    height: 15vh;
+    background-color:var(--primary_color);
+}
+main{
+    width: 100vw;
+    height: 75vh;
+    font-size: 1.8rem;
+}
+h1{
+    color:var(--primary_color);
+    font-size: 4rem;
+}
+footer{
+    width: 100vw;
+    height: 15vh;
+    background-color:var(--secundary_color);
+}

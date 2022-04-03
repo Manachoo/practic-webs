@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.c1, .c2, .c3, .c4, .c5{
+    width: 100%;
+    min-width: 150px;
+    height: 150px;
+}
+.c1{
+    background-color: khaki;
+}
+.c2{
+    background-color: lime;
+}
+.c3{
+    background-color: lightslategray;
+}
+.c4{
+    background-color: lightsalmon;
+}
+.c5{
+    background-color: lightcoral;
+}
+
+/*modelo responsivo directo en css es mala practica
+se debe hacer un css aparta para cada dispositivo*/
+@media (min-width:800px){
+    .container{
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .c1,.c3{
+        width: 60%;
+    }
+    .c2,.c4{
+        width: 40%;
+    }
+    .c5{
+        width: 100%;
+    }
+}

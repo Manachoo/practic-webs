@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: burlywood;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    border-radius: 15px;
+    justify-content: space-between;
+}
+.nav-ul{
+    list-style: none;
+    padding: 20px;
+}
+.nav-ul__li{
+    display: inline-block;
+    margin: 10px 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+.aside, .content{
+    display: inline-block;
+}
+.content{
+    border: 2px black solid;
+    position: absolute;
+    border-radius: 15px;
+    margin: 10px;
+    width: 84vw;
+    height: 830px;
+    font-size: 24px;
+    text-align: center;
+}
+.box-one{
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 15vw;
+    height: 200px;
+    text-align: center;
+    border: 2px black solid;
+}
+.box-two{
+    border-radius: 15px;
+    margin-bottom: 10px;
+    width: 15vw;
+    height: 200px;
+    text-align: center;
+    border: 2px black solid;
+}
+.box-three{
+    border-radius: 15px;
+    margin-bottom: 10px;
+    width: 15vw;
+    height: 200px;
+    text-align: center;
+    border: 2px black solid;
+}
+.box-four{
+    border-radius: 15px;
+    margin-bottom: 10px;
+    width: 15vw;
+    height: 200px;
+    text-align: center;
+    border: 2px black solid;
+}
+
+.footer{
+    background-color: chartreuse;
+    height: 10vh;
+    width: 100vw;
+    grid-area: footer;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+}

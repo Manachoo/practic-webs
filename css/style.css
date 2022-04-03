@@ -1,0 +1,36 @@
+/*class = <p class="nombre">
+se llama con un . antes de la css ej
+.nombre
+*/
+/*id = <p id="nombre">
+se llama con un # antes del la css ej
+#nombre
+*/
+
+.main-nav{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0%;
+    background-color: brown;
+}
+/*poner lista en horizontal*/
+.main-nav__item{
+    display: inline-block;
+    
+}
+
+/*ser especifio ejemplo solo la etiqueta a*/
+.main-nav__item a{
+    color: azure;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+/*hover para cuando el mouse esta sobre el item*/
+.main-nav__item a:hover{
+    color: black;
+}
+/*active cambia el color del item cuando se presiona el item*/
+.main-nav__item a:active{
+    color:darkgoldenrod;
+}
