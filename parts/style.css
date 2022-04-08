@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 25rem;
+    width: 10rem;
+    background: #11301d;
+}
+.sidebar .logo_details{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.sidebar .logo_details i{
+    font-size: 30px;
+    color: #fff;
+    height: 50px;
+    min-width: 78px;
+    text-align: center;
+    line-height: 50px;
+}
+.logo_name{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+}
+.nav_links{
+    height: 100%;
+    padding-top: 30px;
+}
+.nav_links_items{
+    list-style: none;
+    position: relative;
+}
+.nav_item{
+    color: #fff;
+    height: 50px;
+    min-width: 78px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    margin-left: 2rem;
+}
+.nav_item i{
+    color: #fff;
+    height: 50px;
+    min-width: 78px;
+    text-align: center;
+    line-height: 50px;
+    margin-right: .5rem;
+}
+.home_section{
+    position: relative;
+    background-color: #fff;
+    left: 10rem;
+    width: calc(100% - 10rem);
+    height: 100%;
+}
+.home_content{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.home_content i{
+    color: black;
+    height: 50px;
+    margin: .4rem .2rem;
+    text-align: center;
+    line-height: 50px;
+}
+.sidebar.close ~ .home_section{
+    left: 78px;
+    width: calc(100% - 78px);
+}
