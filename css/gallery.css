@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    margin: 0;
+    font-family: monospace;
+}
+h1{
+    text-align: center;
+    color: #4444;
+}
+.gallery--container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,230px);
+    padding: 1rem;
+    justify-content: center;
+}
+.gallery--item{
+    position: relative;
+}
+.gallery--title{
+    position: absolute;
+    bottom: 0;
+}
+.gallery--img{
+    width: 230px;
+    object-fit: cover;
+}
