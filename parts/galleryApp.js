@@ -23,6 +23,8 @@ imagesLoaded( elem, () =>{
     var msnry = new Masonry( elem, {
         // options
         itemSelector: '.gallery--item',
-        columnWidth: 248
+        columnWidth: 248,
+        gutter: 16,
+        isFitWidth: true
       });
 });
