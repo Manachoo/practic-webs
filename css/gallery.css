@@ -20,6 +20,7 @@ h1{
 .gallery--item{
     position: relative;
     margin-bottom: 1rem;
+    background-color: lightgrey;
 }
 .gallery--title{
     position: absolute;
@@ -110,3 +111,4 @@ h1{
     opacity: 1;
     visibility: visible;
 }
+/*media query de 767px para el modal con la imagen*/
